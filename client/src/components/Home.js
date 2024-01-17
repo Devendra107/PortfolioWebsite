@@ -20,10 +20,10 @@ const Home= () => {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Full Stack Developer💻",
+                    "FullStack Developer💻",
                     1000,
-                    "MERN Stack Dev😎",
-                    1000,
+                    "Big Data Enthusiastic",
+                    1000
                   ]}
                 />
               </h1>

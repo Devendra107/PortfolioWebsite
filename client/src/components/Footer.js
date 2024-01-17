@@ -1,4 +1,7 @@
 import "./css/Footer.css";
+import {HiOutlineMail} from 'react-icons/hi'
+import {BsInstagram} from 'react-icons/bs'
+import {BsWhatsapp} from 'react-icons/bs'
 import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter , FaInstagram } from "react-icons/fa";
 import React from 'react'
 
@@ -32,6 +35,8 @@ const Footer = () => {
                 <FaTwitter size={30} style={{color:"#fff", marginRight:"1rem"}} />
                 <FaLinkedin size={30} style={{color:"#fff", marginRight:"1rem"}} />
                 <FaInstagram size={30} style={{color:"#fff", marginRight:"1rem"}} />
+               
+                
 
              </div>
            </div>
