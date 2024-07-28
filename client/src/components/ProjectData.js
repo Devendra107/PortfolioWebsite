@@ -12,8 +12,8 @@ const ProjectData = [
         imgsrc: project5,
         title: "Plant Nursery",
         text: "It is a digital platform that specializes in selling a variety of plants, seeds and related products over the internet. This virtual marketplace allows gardening enthusiasts interested in greenery to purchase plants.",
-        view: "https://github.com/Devendra107/Online_Plant_Nursery.git",
-        source: "https://github.com/Devendra107/Online_Plant_Nursery.git"
+        view: "https://plantnursery.onrender.com/",
+        source: "https://github.com/Devendra107/PlantNursery.git"
     }
     ,
     {
