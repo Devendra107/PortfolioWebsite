@@ -164,6 +164,42 @@ img{
     object-fit: cover;
 }
 
+/*----------------------Card Styling-----------*/
+
+
+.project-card {
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%; /* Allow the card to take up the full height of its container */
+  }
+  
+  .project-card img {
+    width: 100%; /* Make sure the image fills the width of the card */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .project-details {
+    flex: 1; /* Allow this section to grow and take up available space */
+    padding: 16px;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+  }
+  
+  .project-title {
+    margin-top: 0; /* Remove default margin-top for better spacing */
+  }
+  
+  .project-btns {
+    margin-top: auto; /* Push the button container to the bottom */
+    display: flex;
+    justify-content: space-between; /* Distribute space between buttons */
+    padding: 16px; /* Add padding around buttons */
+  }
+  
+
 
 /*----------------------Media Queries-----------*/
 
@@ -187,3 +223,7 @@ img{
         margin-bottom: 2rem;
     }
 }
+
+
+
+
